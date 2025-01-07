@@ -8,13 +8,13 @@ const Chatbot = () => {
 
   // Hardcoded skills and responses
   const skills = {
-    "What are your technical skills?": "My key technical skills include JavaScript, ReactJS, NodeJS, Express, MongoDB, Python, and basic DevOps tools like Docker, Kubernetes, and CI/CD pipelines.",
-    "What is your experience with DevOps?": "I have experience using Docker for containerization, Kubernetes for orchestration, and setting up CI/CD pipelines to streamline deployment processes.",
-    "What projects have you worked on?": "I have worked on a full-stack MERN project for managing car-related products with user authentication, CRUD operations, and search functionality.",
-    "Do you have experience with backend development?": "Yes, I have experience in backend development using Node.js, Express, and MongoDB for creating RESTful APIs and integrating them with frontends.",
-    "What certifications do you have?": "I have completed certifications in Full-Stack Web Development and DevOps practices.",
-    "Can you describe your experience with ReactJS?": "I have built multiple ReactJS applications using state management tools like Redux and Context API and integrated them with backend APIs.",
-    "What is your educational background?": "I am in the final year of my B.Tech program.",
+    "technical skills": "My key technical skills include JavaScript, ReactJS, NodeJS, Express, MongoDB, Python, and basic DevOps tools like Docker, Kubernetes, and CI/CD pipelines.",
+    "experience with DevOps": "I have experience using Docker for containerization, Kubernetes for orchestration, and setting up CI/CD pipelines to streamline deployment processes.",
+    "projects": "I have worked on a full-stack MERN project for managing car-related products with user authentication, CRUD operations, and search functionality.",
+    "backend development": "Yes, I have experience in backend development using Node.js, Express, and MongoDB for creating RESTful APIs and integrating them with frontends.",
+    "certifications": "I have completed certifications in Full-Stack Web Development and DevOps practices.",
+    "experience with ReactJs": "I have built multiple ReactJS applications using state management tools like Redux and Context API and integrated them with backend APIs.",
+    "educationa": "I am in the final year of my B.Tech program.",
   };
 
   const handleSubmit = async (e) => {
